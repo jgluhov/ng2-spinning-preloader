@@ -1,0 +1,31 @@
+{
+  "name": "ng2-preloader",
+  "version": "0.0.0",
+  "description": "A spinner preloader widget for Angular2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgluhov/ng2-preloader.git"
+  },
+  "keywords": [
+    "angular2",
+    "preloader",
+    "ng2",
+    "preloader",
+    "loader",
+    "angular2",
+    "spinner",
+    "preloader",
+    "spinner",
+    "preloader"
+  ],
+  "author": "'JGluhov' <'jgluhov@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgluhov/ng2-preloader/issues"
+  },
+  "homepage": "https://github.com/jgluhov/ng2-preloader#readme"
+}
