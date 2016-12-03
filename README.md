@@ -1,1 +1,1 @@
-"# ng2-preloader" 
+# ng2-preloader
