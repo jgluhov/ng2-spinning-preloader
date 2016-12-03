@@ -1,1 +1,1 @@
-# ng2-spinner-preloader
+# ng2-spinning-preloader
