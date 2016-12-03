@@ -14,13 +14,8 @@
     "angular2",
     "preloader",
     "ng2",
-    "preloader",
     "loader",
-    "angular2",
-    "spinner",
-    "preloader",
-    "spinner",
-    "preloader"
+    "spinner"
   ],
   "author": "'JGluhov' <'jgluhov@gmail.com'>",
   "license": "MIT",
