@@ -1,0 +1,35 @@
+{
+  "name": "ng2-spinning-preloader",
+  "version": "1.0.0",
+  "description": "Example ng2-spinning-preloader",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server -d --inline --progress --no-info --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "spinning-preloader",
+    "ng2"
+  ],
+  "author": "'JGluhov <'jgluhov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular2": "0.0.2",
+    "@types/node": "0.0.2",
+    "awesome-typescript-loader": "3.0.0-beta.9",
+    "html-webpack-plugin": "2.24.1",
+    "path": "0.12.7",
+    "webpack": "1.13.3",
+    "webpack-merge": "1.0.2"
+  },
+  "dependencies": {
+    "@angular/common": "2.2.4",
+    "@angular/compiler": "2.2.4",
+    "@angular/platform-browser": "2.2.4",
+    "@angular/platform-browser-dynamic": "2.2.4",
+    "core-js": "2.4.1",
+    "rxjs": "5.0.0-rc.4",
+    "zone.js": "0.7.2"
+  }
+}
