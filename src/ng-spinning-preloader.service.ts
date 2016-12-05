@@ -17,14 +17,12 @@ import {
 export class NgSpinningPreloaderService {
   container: Element;
 
-  constructor(
-    @Inject(DOCUMENT) private document: Document
-  ) {
+  constructor(@Inject(DOCUMENT) private document: Document) {
     this.container = this.document.querySelector(CONTAINER_QUERY);
   }
 
   start() {
-
+    this.container.classList.remove(COMPLETE_CLASS_NAME);
   }
 
   stop() {
