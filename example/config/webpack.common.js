@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+console.log(path.resolve(__dirname, '../../', 'src'));
+
 module.exports = {
   entry: {
     vendor: './vendor.ts',
@@ -12,10 +14,13 @@ module.exports = {
   resolve: {
     modulesDirectories: [
       'node_modules',
-      path.resolve(__dirname, '../../', 'node_modules')
+      path.resolve(__dirname, '/../../', 'node_modules')
     ],
     extensions: ['',  '.js', '.ts'],
-    fallback: path.resolve(__dirname, '../../', 'node_modules')
+    fallback: path.resolve(__dirname, '/../../', 'node_modules'),
+    alias: {
+      'ng2-spinning-preloader$': path.resolve(__dirname, '../../', 'src')
+    }
   },
   resolveLoader: {
     modulesDirectories: ['node_modules'],
@@ -26,7 +31,7 @@ module.exports = {
     loaders: [
       {
         test: /\.ts$/,
-        loader: 'awesome-typescript',
+        loader: 'ts',
         exclude: /node_modules/
       }
     ]

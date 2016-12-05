@@ -9,6 +9,10 @@
     "removeComments": false,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": ".",
+    "paths": {
+      "ng2-spinning-preloader": ["../src"]
+    },
     "typeRoots": [
       "../node_modules/@types"
     ],

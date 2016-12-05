@@ -27,6 +27,7 @@
   "devDependencies": {
     "@types/angular2": "0.0.2",
     "@types/core-js": "0.9.35",
+    "ts-loader": "1.2.2",
     "typescript": "2.0.10"
   },
   "dependencies": {
