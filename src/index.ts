@@ -1,5 +1,5 @@
-import {SpinningPreloaderModule} from './spinning-preloader.module';
+import {NgSpinningPreloaderModule} from './spinning-preloader.module';
 
 export {
-  SpinningPreloaderModule
+  NgSpinningPreloaderModule
 };

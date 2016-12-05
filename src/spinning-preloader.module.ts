@@ -1,1 +1,4 @@
-export class SpinningPreloaderModule {}
+import {NgModule} from '@angular/core';
+
+@NgModule({})
+export class NgSpinningPreloaderModule {}
