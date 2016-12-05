@@ -25,18 +25,17 @@
   },
   "homepage": "https://github.com/jgluhov/ng2-spinning-preloader#readme",
   "devDependencies": {
-    "@types/angular2": "0.0.2",
-    "@types/core-js": "0.9.35",
     "gulp": "3.9.1",
     "gulp-autoprefixer": "3.1.1",
     "gulp-clean-css": "2.0.13",
     "gulp-sourcemaps": "1.9.1",
     "gulp-stylus": "2.6.0",
     "stylus": "0.54.5",
-    "ts-loader": "1.2.2",
-    "typescript": "2.0.10"
+    "ts-loader": "1.2.2"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "typescript": "2.0.10",
+    "@types/core-js": "0.9.35",
     "@angular/common": "2.2.4",
     "@angular/core": "2.2.4",
     "@angular/platform-browser": "2.2.4",
