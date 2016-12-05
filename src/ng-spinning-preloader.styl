@@ -1,0 +1,77 @@
+$colorCobalt = #44749D
+$colorOrange = #F6DC74
+$colorRed = #DA222B
+
+$boxWidth = 150px
+$boxHeight = 150px
+
+$largeCircleColor = $colorCobalt
+$mediumCircleColor = $colorRed
+$smallCircleColor = $colorOrange
+
+$largeCircleAnimationTime = 2s
+$mediumCircleAnimationTime = 3s
+$smallCircleAnimationTime = 1.5s
+
+$spinnerPreloaderTransitionFn =  cubic-bezier(0.645, 0.045, 0.355, 1.000)
+$spinnerPreloaderTransition = 'opacity .3s %s' % $spinnerPreloaderTransitionFn
+
+set-box-position(n)
+  top n
+  left n
+  right n
+  bottom n
+
+set-box-animation(time)
+  animation 'spin %s linear infinite' % time
+
+.spinner-preloader-container
+  position fixed
+  top 0
+  left 0
+  width 100%
+  height 100%
+  z-index 1000
+  display flex
+  align-items center
+  justify-content center
+  background #f2f2f2 linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%)
+  transition $spinnerPreloaderTransition
+
+  > .spinner-preloader-elements,
+  > .spinner-preloader-elements:before,
+  > .spinner-preloader-elements:after
+    border 3px solid transparent
+    border-radius 50%
+
+  > .spinner-preloader-elements
+    display block
+    width $boxWidth
+    height $boxHeight
+    border-top-color $largeCircleColor
+    z-index 1500
+    opacity 1
+    set-box-animation($largeCircleAnimationTime)
+
+    &:before, &:after
+      content ''
+      position absolute
+
+    &:before
+      set-box-position(5px)
+      border-top-color $mediumCircleColor
+      set-box-animation($mediumCircleAnimationTime)
+    &:after
+      set-box-position(15px)
+      border-top-color $smallCircleColor
+      set-box-animation($smallCircleAnimationTime)
+
+  &.complete
+    opacity 0
+
+
+@keyframes spin
+  from
+    transform rotateZ(0deg)
+  to
+    transform rotateZ(360deg)
