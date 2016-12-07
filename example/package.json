@@ -26,7 +26,7 @@
     "webpack": "1.13.3",
     "webpack-merge": "1.0.2"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@angular/compiler": "2.2.4",
     "@angular/platform-browser-dynamic": "2.2.4",
     "core-js": "2.4.1",
