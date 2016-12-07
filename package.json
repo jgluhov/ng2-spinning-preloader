@@ -1,8 +1,8 @@
 {
   "name": "ng2-spinning-preloader",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A spinner preloader widget for Angular2",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
