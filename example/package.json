@@ -1,6 +1,6 @@
 {
   "name": "ng2-spinning-preloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example ng2-spinning-preloader",
   "main": "webpack.config.js",
   "scripts": {
