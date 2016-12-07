@@ -1,4 +1,4 @@
 
-export interface NgSpinningPreloader {
+export interface INgSpinningPreloader {
   container: Element;
 }

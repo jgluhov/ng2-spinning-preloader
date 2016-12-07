@@ -1,4 +1,4 @@
-import {NgSpinningPreloaderService as NgSpinningPreloader} from './ng-spinning-preloader.service';
+import {NgSpinningPreloader} from './ng-spinning-preloader.service';
 
 export {
   NgSpinningPreloader

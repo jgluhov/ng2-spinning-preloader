@@ -13,8 +13,12 @@ import {
   COMPLETE_CLASS_NAME
 } from './ng-spinning-preloader.constants'
 
+import {
+  INgSpinningPreloader
+} from './ng-spinning-preloader.interfaces'
+
 @Injectable()
-export class NgSpinningPreloaderService {
+export class NgSpinningPreloader implements INgSpinningPreloader {
   container: Element;
 
   constructor(@Inject(DOCUMENT) private document: Document) {
