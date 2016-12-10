@@ -9,7 +9,7 @@ import {NgSpinningPreloader} from "ng2-spinning-preloader";
   template: 'App component'
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit {
   constructor(private ngSpinningPreloader: NgSpinningPreloader) {}
 
   ngOnInit() {
