@@ -1,3 +1,0 @@
-export {
-  NgSpinningPreloader
-} from './src'
