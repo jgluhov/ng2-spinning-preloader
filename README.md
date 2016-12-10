@@ -39,6 +39,11 @@ Insert in your index.html `spinning-preloader` element
 </body>
 ```
 
+Import styles of `ng-2spinning-preloader` 
+```typescript
+  require('ng2-spinning-preloader/dist/ng-spinning-preloader.css');
+```
+
 ## Example
 ```typescript
 import {
