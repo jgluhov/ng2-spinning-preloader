@@ -2,8 +2,7 @@ import {
   Component,
   OnInit
 } from '@angular/core';
-
-import {NgSpinningPreloader} from 'ng2-spinning-preloader';
+import {NgSpinningPreloader} from "ng2-spinning-preloader";
 
 @Component({
   selector: 'app',
