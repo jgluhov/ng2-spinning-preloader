@@ -1,3 +1,3 @@
-export {
-  NgSpinningPreloader
-} from './src';
+export declare class NgSpinningPreloader {
+  container: Element
+}
