@@ -1,4 +1,6 @@
-import {NgSpinningPreloader} from './ng-spinning-preloader.service'
+declare class NgSpinningPreloader {
+  container: Element
+}
 
 export {
   NgSpinningPreloader
