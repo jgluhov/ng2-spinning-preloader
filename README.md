@@ -28,12 +28,15 @@ import {NgSpinningPreloader} from 'ng2-spinning-preloader';
 
 export class AppModule {}
 ```
-Insert in your index.html `spinning-preloader` element.
+Insert in your index.html `spinning-preloader` element
 
 ```html
-<div class="spinner-preloader-container">
-    <div class="spinner-preloader-elements"></div>
-</div>
+<body>
+	<div class="spinner-preloader-container">
+		<div class="spinner-preloader-elements"></div>
+	</div>
+	<app></app>
+</body>
 ```
 
 ## Example
