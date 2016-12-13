@@ -25,7 +25,7 @@ set-box-position(n)
 set-box-animation(time)
   animation 'spin %s linear infinite' % time
 
-.spinner-preloader-container
+.spinning-preloader-container
   position fixed
   top 0
   left 0
@@ -38,13 +38,13 @@ set-box-animation(time)
   background #f2f2f2 linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%)
   transition $spinnerPreloaderTransition
 
-  > .spinner-preloader-elements,
-  > .spinner-preloader-elements:before,
-  > .spinner-preloader-elements:after
+  > .spinning-preloader-elements,
+  > .spinning-preloader-elements:before,
+  > .spinning-preloader-elements:after
     border 3px solid transparent
     border-radius 50%
 
-  > .spinner-preloader-elements
+  > .spinning-preloader-elements
     display block
     width $boxWidth
     height $boxHeight
