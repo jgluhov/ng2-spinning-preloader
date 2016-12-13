@@ -1,3 +1,5 @@
+import {NG_SPINNING_PRELOADER_TYPE} from './ng-spinning-preloader.types';
+
 export declare class NgSpinningPreloader {
-  container: Element
+  _container: NG_SPINNING_PRELOADER_TYPE;
 }
