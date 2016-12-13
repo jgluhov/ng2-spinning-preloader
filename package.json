@@ -1,7 +1,7 @@
 {
   "name": "ng2-spinning-preloader",
   "version": "1.0.27",
-  "description": "A spinner preloader widget for Angular2",
+  "description": "A spinning preloader widget for Angular2",
   "main": "./src/index.ts",
   "scripts": {
     "start": "gulp default",

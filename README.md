@@ -32,8 +32,8 @@ Insert in your index.html `spinning-preloader` element
 
 ```html
 <body>
-	<div class="spinner-preloader-container">
-		<div class="spinner-preloader-elements"></div>
+	<div class="spinning-preloader-container">
+		<div class="spinning-preloader-elements"></div>
 	</div>
 	<app></app>
 </body>
