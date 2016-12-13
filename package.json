@@ -1,6 +1,6 @@
 {
   "name": "ng2-spinning-preloader",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "A spinning preloader widget for Angular2",
   "main": "./src/index.ts",
   "scripts": {
