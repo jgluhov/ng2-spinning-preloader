@@ -20,7 +20,7 @@ import {NG_SPINNING_PRELOADER_TYPE} from './ng-spinning-preloader.types';
 export class NgSpinningPreloader {
   _container: NG_SPINNING_PRELOADER_TYPE;
 
-  constructor(@Inject(DOCUMENT) private document: Document) {
+  constructor(@Inject(DOCUMENT) private document: any) {
     this.container = this.document.querySelector(CONTAINER_QUERY);
   }
 
